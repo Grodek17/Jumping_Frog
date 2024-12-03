@@ -1,5 +1,4 @@
 game_width=50
-game_height=25
 player_character=G
 car_character=X
 car_color=ORANGE

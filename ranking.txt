@@ -1,3 +1,6 @@
-frogson=0
-froggy=200
-stork=500
+frogson
+0
+froggy
+200
+stork
+500

@@ -1,5 +1,7 @@
-game_width=50
-player_character=G
-car_character=X
-car_color=ORANGE
+game_width=20
+player_character=F
+car_character=C
+car_color=RED
+neutral_color=CYAN
+friendly_color=MAGENTA
 game_speed=50

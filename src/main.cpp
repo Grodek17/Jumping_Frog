@@ -574,7 +574,7 @@ void reInitCar(int i, CAR* CARS, char* carMap, Config* CONFIG)
 	}
 	carMap[randomValue] = 'C';
 	CARS[i].y = randomValue; // car again appears on the other side, this time with different Y but still in bounds.
-	CARS[i].initializeCounter = CARS[i].initializeCounter = rand() % 150;
+	CARS[i].initializeCounter = rand() % 150;
 
 	if (CARS[i].rightLeft == 0)
 	{
@@ -908,7 +908,7 @@ void readRanking(SCORE* RANKS)
 	else
 	{
 		for (int i = 0; i < 3; i++) {
-			if (fscanf(rankingFile, "%s\n", &RANKS[i].name) != 1)
+			if (fscanf(rankingFile, "%24s", RANKS[i].name) != 1)
 			{
 				strcpy(RANKS[i].name, "<computer>");
 			}

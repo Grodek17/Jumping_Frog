@@ -1,0 +1,15 @@
+# Compiled binaries
+frogger
+frogger.exe
+*.o
+*.obj
+
+# IDE files
+.vs/
+.vscode/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
